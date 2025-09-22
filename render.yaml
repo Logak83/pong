@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: multiplayer-pong
-    env: node
-    plan: free
-    branch: main
-    buildCommand: npm install
-    startCommand: node server.js
-    autoDeploy: true
